@@ -15,6 +15,7 @@ COLUMNAS = {
     "TRIMESTRE":  {"tipo": "int", "completitud": 100.0},
     "ITF":        {"tipo": "int", "completitud": 78.5},
     "GDECCFR":    {"tipo": "int", "completitud": 74.2},
+    "CH04":       {"tipo": "int", "completitud": 95.0},
 }
 
 # ---------------------------------------------------------------------------
@@ -32,7 +33,7 @@ ROLES = {
     },
     "investigador": {
         "columnas": ["PONDERA", "ESTADO", "CAT_OCUP", "EDAD", "REGION",
-                     "AGLOMERADO", "ITF", "GDECCFR", "ANO4"],
+                     "AGLOMERADO", "ITF", "GDECCFR", "ANO4","CH04"],
         "criterio": "completitud",
         "orden": "B",
         "min_completitud": 70,
